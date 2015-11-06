@@ -1,0 +1,11 @@
+{
+  "name": "macrotrack",
+  "version": "1.0.0",
+  "description": "Easily Tracking Macro's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakub Misterka <san.y4ku@gmail.com>",
+  "license": "ISC"
+}
