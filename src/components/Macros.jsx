@@ -1,14 +1,11 @@
 import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 
 export default React.createClass({
-    getMacros: function() {
-        return this.props.macros || [];
-    },
+    mixin: [PureRenderMixin],
     render: function() {
         return <div className="macros">
-            {this.getMacros().map(entry =>
-                    <h1 key={entry}>{entry}</h1>
-            )}
+            <h1> Macros </h1>
         </div>;
     }
 });
